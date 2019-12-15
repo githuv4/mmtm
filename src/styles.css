@@ -271,7 +271,7 @@ i.fa-search {
   font-size: 18px;
   position: absolute;
   bottom: 20px;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .form input {
@@ -286,6 +286,7 @@ i.fa-search {
   bottom: 20px;
   left: 20px;
   color: white;
+  opacity: 0.7;
 }
 .settings i {
   margin-right: 15px;
