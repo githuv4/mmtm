@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://kit.fontawesome.com/8c4ed22fd7.js"></script>
+    <title>momontom</title>
+  </head>
+  <body>
+    <div>
+      <div class="calendar">
+        <ul class="calendar__date js-calendar-date">
+          <span class="day js-day">day</span>
+          <span class="month js-month">month</span>
+        </ul>
+      </div>
+      <span class="js-clock clock">00:00</span>
+      <span class="clock-sec">00</span>
+    </div>
+    <form action="" class="js-form name-form">
+      <input type="text" placeholder="What is your name ?" />
+    </form>
+    <h4 class="js-greeting greeting"></h4>
+    <div class="todo-container">
+      <div class="todo-title">
+        <div>
+          <span>
+            to do
+          </span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+      <ul class="js-toDoList todo-list"></ul>
+      <form action="" class="js-toDoForm todo-form">
+        <input type="text" placeholder="new todo" />
+      </form>
+    </div>
+    <div class="weather">
+      <div class="weather-icon">
+        <i class="fas fa-cloud-sun"></i>
+        <!-- <i class="fas fa-sun hiding"></i> -->
+      </div>
+      <div class="condition">
+        <span class="js-weather-temperature temp"></span>
+        <span class="js-weather-location loc"></span>
+      </div>
+    </div>
+    <div class="momontom">
+      <span>
+        momontom
+      </span>
+      <i class="fas fa-search"></i>
+    </div>
+
+    <div class="settings">
+      <i class="fas fa-cog"></i>
+      <span class="image-name"></span>
+    </div>
+    <span class="comment">"Divide and Conquer!!" </span>
+
+    <script src="src/calendar.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/greeting.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/bg.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
