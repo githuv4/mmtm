@@ -208,8 +208,10 @@ button {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
   color: white;
+  /* background-color: red; */
 }
 
 .weather i {
@@ -251,7 +253,8 @@ i.fa-search {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 15px;
+  margin-top: 15px;
+  margin-left: 20px;
   color: white;
 }
 
